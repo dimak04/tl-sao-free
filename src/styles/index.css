@@ -1,0 +1,41 @@
+body, html {
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background: #ffffff;
+}
+:root {
+    --main-font: 'Alice', serif;
+}
+
+.app {
+    height: 100vh;
+}
+
+.header{
+    display: flex;
+    height: 52px;
+    padding: 0 36px;
+    background: #343434;
+    font-size: 30px;
+}
+.header-item {
+    line-height: 52px;
+}
+.header-item-right{
+    margin-left: auto;
+}
+.header-item-right a {
+    color: #e31d24;
+}
+.logo {
+    width: 156px;
+    min-width: 156px;
+
+}
+
+.content {
+    margin: 4px;
+    background-color: #fff;
+}
